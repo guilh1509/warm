@@ -1,0 +1,217 @@
+
+header {
+    background-color: rgb(0, 0, 0);
+    width: 1500px;
+    height: 172px;
+}
+
+
+#logo h1{
+    width: 100px;
+    color: white;
+}
+
+#logo {
+    width: 10%;
+    float: left;
+}
+
+#search {
+    width: 90%;
+    float: right;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 185px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    margin-right: 135px;
+}
+
+.search-text {
+    margin-left: 68px;
+    border-radius: 20px;
+    width: 1000px;
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+#principal {
+    background-color: rgb(228, 220, 220) ;
+    width: 100%;
+    
+}
+
+#principal img {
+    padding: 50px;
+}
+
+#principal p {
+    color: rgb(0, 0, 0);
+}
+
+/*
+#video {
+    background-color: black;
+    width: 455px;
+    float: right;
+    margin-right: 255px;
+  
+
+}
+
+#video h3 {
+    color: white;
+}
+
+*/
+
+
+#inspiracao img {
+    margin-left: 560px;
+}
+
+#entrar2 {
+    background-color: rgb(78, 72, 72);
+    width: 555px;
+    margin-left: 50px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+
+#entrar2 p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+#entrar2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#registrarse {
+    background-color: black;
+    width: 555px;
+    margin-left: 411px;
+}
+
+#registrarse p {
+    color: white;
+}
+
+#registrarse a {
+    color: white;
+}
+
+#ongs {
+    background-color: black;
+    height: 538.1px;
+    padding: 50px;
+    
+}
+
+#ongs a {
+    color: white;
+}
+
+#ongs p {
+    color: white;
+}
+
+#ongs h1 {
+    color: white;
+}
+
+#ongs img {
+    margin-right: 50px;  
+   
+}
+
+
+
+iframe {
+    float: right;
+    margin-right: 150px;
+    width: 450px;
+    height: 250px;
+    margin-top: 300px;
+    
+}
+
+h3 {
+    width: 500px;
+}
+
+#registrarse {
+    text-align: center;
+}
+
+
+
+.achar {
+    width: 80%;
+}
+ 
+.er {
+    width: 150px;
+    margin-left: 1220px;
+    margin-top: -150px;
+   
+}
+
+.er li {
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+   header {
+    flex-direction: row;
+    background-color: black;
+   }
+
+   ul  {
+    flex-direction:row ;
+   }
+
+   ul a {
+    margin-right: 0px;
+   }
+
+   h1 {
+    float: left;
+   }
+
+   .search-text {
+    width: 45%;
+   }
+
+   .er {
+    padding: 5px;
+   }
+
+
+
+
+
+
+}
+
+
